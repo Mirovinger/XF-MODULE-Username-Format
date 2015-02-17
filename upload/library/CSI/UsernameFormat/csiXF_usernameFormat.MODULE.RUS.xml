@@ -4,7 +4,7 @@
   Contacts: http://cyberspace.industries/
   License: LICENSE.RUS.txt
 -->
-<addon addon_id="csiXF_userNameFormat" title="(CSI/XF/MODULE) Форматирование имён пользователей" version_string="1.0.0" version_id="1" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+<addon addon_id="csiXF_usernameFormat" title="(CSI/XF/MODULE) Форматирование имён пользователей" version_string="1.0.0" version_id="1" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
   <admin_navigation/>
   <admin_permissions/>
   <admin_style_properties/>
@@ -26,7 +26,7 @@
   <style_properties/>
   <templates/>
   <public_template_modifications>
-    <modification template="sidebar_online_users" modification_key="csiXF_userNameFormat_onlineUsers" description="Форматирование имён пользователей в списке online" execution_order="10" enabled="1" action="str_replace">
+    <modification template="sidebar_online_users" modification_key="csiXF_usernameFormat_onlineUsers" description="Форматирование имён пользователей в списке online" execution_order="10" enabled="1" action="str_replace">
       <find><![CDATA[{$user.username}</a>]]></find>
       <replace><![CDATA[{xen:helper richUserName, $user}</a>]]></replace>
     </modification>
