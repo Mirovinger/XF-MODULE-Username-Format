@@ -2,7 +2,7 @@
 <!--
   Copyright © 2015 CYBERSPACE Industries. All rights reserved.
   Contacts: http://cyberspace.industries/
-  License: LICENSE.RUS.txt
+  License: LICENSE.ENG.txt
 -->
 <addon addon_id="csiXF_usernameFormat" title="(CSI/XF/MODULE) Форматирование имён пользователей" version_string="1.0.0" version_id="1" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
   <admin_navigation/>
